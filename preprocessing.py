@@ -3,6 +3,7 @@
 Created on Mon Aug 17 23:05:25 2020
 """
 
+#----------------Start--------------------------------
 
 #preprocessing data
 #scale data
@@ -15,4 +16,13 @@ a = np.array([[10,2.7,3.6],
 
 print(a)
 print(preprocessing.scale(a))
+
+
+
+
+
+#-------------------End------------------------------
+
+
+
 
