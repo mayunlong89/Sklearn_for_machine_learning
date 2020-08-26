@@ -4,6 +4,7 @@ Created on Mon Aug 17 23:05:25 2020
 
 """
 
+#--------------Start------------------------------------
 #Model_2 form our own datasets
     
 from sklearn import datasets
@@ -25,4 +26,9 @@ print(model.intercept_)
 print(model.get_params())
 print(model.score(data_X, data_Y))
 print(LinearRegression.score(data_X, data_Y))
+
+
+
+#---------------End-----------------------------------
+
 
